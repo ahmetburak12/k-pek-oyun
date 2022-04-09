@@ -1,0 +1,23 @@
+.burak-daire{
+  width: 100px;
+  height: 500px;
+  border-radius: 80px solid rgb(75, 86, 240);
+ font-variant-numeric: normal;
+box-shadow: rgb(211, 15, 15);
+  margin:auto;
+
+  animation: burak-daire 31s linear 0s infinite;
+
+}
+@keyframes .burak-daire {
+  1s%{
+    transform: rotate(0deg);
+
+  }
+  100%{
+    transform: rotate(20deg);
+  }
+
+}
+ 
+
